@@ -13,7 +13,8 @@
         var name = $('#name').val();
         var phone = $('#phone-no').val();
         var email = $('#email').val();
-
+        var email_regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+        var email2 = email_regex.test(email);
         if(name == ""){
             $('#name_err').html('Name is Required');
             return false
@@ -29,17 +30,22 @@
         if(email == ""){
             $('#email_err').html('Email is Required');
             return false
-        }else{
+        }
+        else if(!email2){
+            $('#email_err').html('Please enter valid email');
+            return false
+        }
+        else{
             $('#email_err').html('');
         }
         window.open('binghatti-canal-brochure.pdf');
     });
-    $('#save-info-b').click(function(){
-        // alert('Hello');
-        // window.open('binghatti-canal-brochure.pdf');
+    $('#save-info_b').click(function(){
         var name_b = $('#name_b').val();
         var phone_b = $('#country-code').val();
         var email_b = $('#email_b').val();
+        var email_regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+        var email = email_regex.test(email_b);
         if(name_b == ""){
             $('#name_err_b').html('Name is required');
             return false
@@ -53,6 +59,9 @@
             $('#phone_err_b').html('');
         }if(email_b == ""){
             $('#email_err_b').html('Email is required');
+            return false
+        }else if(!email){
+            $('#email_err_b').html('Please enter valid email');
             return false
         }else{
             $('#email_err_b').html('');
