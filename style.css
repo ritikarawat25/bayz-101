@@ -206,6 +206,7 @@ h6 {
 .btn-color:hover {
     background-color: #36255a;
     transform: scale(1.1);
+    color: #fff;
 }
 
 span.h4 {
