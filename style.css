@@ -200,6 +200,7 @@ h6 {
 .btn-color {
     background-color: #36255a;
     color: #fff;
+    padding: 10px 30px;
 }
 
 .btn-color:hover {
