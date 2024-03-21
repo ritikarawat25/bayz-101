@@ -243,7 +243,7 @@ span.h4 {
 
 .form-input input:focus,
 .form-input textarea:focus {
-    border-left: 4px solid #36255a;
+    border-left: 2px solid #36255a;
     box-shadow: none;
 }
 
