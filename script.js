@@ -34,7 +34,7 @@
         }
         window.open('binghatti-canal-brochure.pdf');
     });
-    $('#save-info_b').click(function(){
+    $('#save-info-b').click(function(){
         // alert('Hello');
         // window.open('binghatti-canal-brochure.pdf');
         var name_b = $('#name_b').val();
