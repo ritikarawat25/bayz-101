@@ -236,7 +236,7 @@ span.h4 {
 .form-input textarea:focus {
     background: none;
     border: none;
-    border-bottom: 4px solid #36255a;
+    border-bottom: 2px solid #36255a;
     color: #fff;
 }
 
