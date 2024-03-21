@@ -412,3 +412,6 @@ span.h4 {
 .brchr-space .iti__selected-flag{
     padding-top: 0px !important;
 }
+#f-form .err-msg{
+    color: #fff;
+}
