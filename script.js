@@ -38,7 +38,6 @@
         else{
             $('#email_err').html('');
         }
-        window.open('binghatti-canal-brochure.pdf');
     });
     $('#save-info_b').click(function(){
         var name_b = $('#name_b').val();
@@ -66,7 +65,7 @@
         }else{
             $('#email_err_b').html('');
         }
-        $('<a href="binghatti-canal-brochure.pdf" download>')[0].click();
+        $('<a href="bayz-101-brochure.pdf" download>')[0].click();
     });
 
     $('#country-code').on('input', function(){
