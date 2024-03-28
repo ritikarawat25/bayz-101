@@ -23,7 +23,7 @@
     <header class="sticky-top">
         <nav class="navbar navbar-expand-md nav-transparent">
             <div class="container-fluid px-4">
-                <a href="index.html">
+                <a href="index.php">
                     <div class="logo-box">
                         <img src="images/logo-w.png" alt="logo">
                     </div>
