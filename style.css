@@ -304,7 +304,9 @@ span.h4 {
     height: auto;
     margin-bottom: 10px;
 }
-
+.loc-text p{
+    text-align:left;
+}
 
 @media (max-width:500px) {
     .v-design {
