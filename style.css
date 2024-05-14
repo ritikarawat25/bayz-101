@@ -316,7 +316,7 @@ span.h4 {
     margin: auto;
 }
 .loc-text p{
-    text-align:center;
+    text-align:center !important;
     padding-top: 10px;
 }
 .loc-text{
