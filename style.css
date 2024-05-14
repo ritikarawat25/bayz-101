@@ -315,15 +315,16 @@ span.h4 {
 .tab-pane figure{
     width: 100px;
     height: auto;
-    margin-bottom: 10px;
+    margin: auto;
 }
 .loc-text p{
-    text-align:left;
+    text-align:center;
+    padding-top: 10px;
 }
-.loc-text{
+/* .loc-text{
     display: flex;
     justify-content: space-around;
-}
+} */
 
 @media (max-width:500px) {
     .v-design {
