@@ -321,10 +321,10 @@ span.h4 {
     text-align:center;
     padding-top: 10px;
 }
-/* .loc-text{
+.loc-text{
     display: flex;
     justify-content: space-around;
-} */
+}
 
 @media (max-width:500px) {
     .v-design {
