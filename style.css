@@ -134,6 +134,9 @@ h6 {
 
 
 @media(max-width:767px) {
+    body{
+        font-size: 16px;
+    }
     .navbar {
         background: #00000078 !important;
         /* position: relative; */
