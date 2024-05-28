@@ -522,6 +522,18 @@
     </script>
     <script>
         Fancybox.bind("[data-fancybox]", {
+            Toolbar: {
+                display: {
+                    left: ["infobar"],
+                    middle: [
+                        "zoomIn",
+                        "zoomOut",
+                        "slideshow",
+                        "thumbs",
+                    ],
+                    right: ["close"],
+                },
+            },
         });
     </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
